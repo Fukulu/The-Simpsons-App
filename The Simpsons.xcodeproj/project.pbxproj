@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42226AF2B121BB500EA6799 /* TheSimpsonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42226AE2B121BB500EA6799 /* TheSimpsonsApp.swift */; };
+		D42226B12B121BB500EA6799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42226B02B121BB500EA6799 /* ContentView.swift */; };
+		D42226B32B121BB600EA6799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42226B22B121BB600EA6799 /* Assets.xcassets */; };
+		D42226B62B121BB600EA6799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42226B52B121BB600EA6799 /* Preview Assets.xcassets */; };
+		D42226C12B12202400EA6799 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42226C02B12202400EA6799 /* LaunchScreenView.swift */; };
+		D42226C32B12203200EA6799 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42226C22B12203200EA6799 /* OnboardingView.swift */; };
+		D42226C72B123C3A00EA6799 /* FallingObjectSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42226C62B123C3A00EA6799 /* FallingObjectSetupView.swift */; };
+		D42226C92B12444700EA6799 /* FallingObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42226C82B12444700EA6799 /* FallingObjectView.swift */; };
+		D48AC0692B1282A200C4FA6D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48AC0682B1282A200C4FA6D /* CardView.swift */; };
+		D48AC06B2B12875E00C4FA6D /* CardCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48AC06A2B12875E00C4FA6D /* CardCharacterModel.swift */; };
+		D48AC06D2B1287AA00C4FA6D /* CardCharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48AC06C2B1287AA00C4FA6D /* CardCharacterData.swift */; };
+		D4E88BEC2B13557800F5A59E /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BEB2B13557800F5A59E /* StartButtonView.swift */; };
+		D4E88BF02B13622A00F5A59E /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BEF2B13622A00F5A59E /* HomePageView.swift */; };
+		D4E88BF42B13862900F5A59E /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BF32B13862900F5A59E /* CoverImageView.swift */; };
+		D4E88BF72B13997D00F5A59E /* CharacterListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BF62B13997D00F5A59E /* CharacterListItemView.swift */; };
+		D4E88BF92B139A8900F5A59E /* simpsons.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E88BF82B139A8900F5A59E /* simpsons.json */; };
+		D4E88BFC2B13C37E00F5A59E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BFB2B13C37E00F5A59E /* CodableBundleExtension.swift */; };
+		D4E88BFE2B13C3F800F5A59E /* SimpsonsJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BFD2B13C3F800F5A59E /* SimpsonsJsonModel.swift */; };
+		D4E88C002B13D79200F5A59E /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88BFF2B13D79200F5A59E /* CharacterDetailView.swift */; };
+		D4E88C022B13E0A300F5A59E /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E88C012B13E0A300F5A59E /* ExternalWebLinkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D42226AB2B121BB500EA6799 /* TheSimpsons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSimpsons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42226AE2B121BB500EA6799 /* TheSimpsonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSimpsonsApp.swift; sourceTree = "<group>"; };
+		D42226B02B121BB500EA6799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D42226B22B121BB600EA6799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D42226B52B121BB600EA6799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D42226C02B12202400EA6799 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		D42226C22B12203200EA6799 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D42226C62B123C3A00EA6799 /* FallingObjectSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingObjectSetupView.swift; sourceTree = "<group>"; };
+		D42226C82B12444700EA6799 /* FallingObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingObjectView.swift; sourceTree = "<group>"; };
+		D48AC0682B1282A200C4FA6D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D48AC06A2B12875E00C4FA6D /* CardCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCharacterModel.swift; sourceTree = "<group>"; };
+		D48AC06C2B1287AA00C4FA6D /* CardCharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCharacterData.swift; sourceTree = "<group>"; };
+		D4E88BEB2B13557800F5A59E /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		D4E88BEF2B13622A00F5A59E /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		D4E88BF32B13862900F5A59E /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		D4E88BF52B13984200F5A59E /* TheSimpsons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TheSimpsons-Info.plist"; sourceTree = "<group>"; };
+		D4E88BF62B13997D00F5A59E /* CharacterListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListItemView.swift; sourceTree = "<group>"; };
+		D4E88BF82B139A8900F5A59E /* simpsons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simpsons.json; sourceTree = "<group>"; };
+		D4E88BFB2B13C37E00F5A59E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		D4E88BFD2B13C3F800F5A59E /* SimpsonsJsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsJsonModel.swift; sourceTree = "<group>"; };
+		D4E88BFF2B13D79200F5A59E /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		D4E88C012B13E0A300F5A59E /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42226A82B121BB500EA6799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42226A22B121BB500EA6799 = {
+			isa = PBXGroup;
+			children = (
+				D4E88BF52B13984200F5A59E /* TheSimpsons-Info.plist */,
+				D42226AD2B121BB500EA6799 /* The Simpsons */,
+				D42226AC2B121BB500EA6799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42226AC2B121BB500EA6799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42226AB2B121BB500EA6799 /* TheSimpsons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42226AD2B121BB500EA6799 /* The Simpsons */ = {
+			isa = PBXGroup;
+			children = (
+				D4E88BFA2B13C36400F5A59E /* Extension */,
+				D48AC0672B127D0700C4FA6D /* Utilities */,
+				D42226BF2B121F3500EA6799 /* Model */,
+				D42226BE2B121F2800EA6799 /* Data */,
+				D42226BD2B121F1D00EA6799 /* View */,
+				D42226BC2B121F1400EA6799 /* App */,
+				D42226B22B121BB600EA6799 /* Assets.xcassets */,
+				D42226B42B121BB600EA6799 /* Preview Content */,
+			);
+			path = "The Simpsons";
+			sourceTree = "<group>";
+		};
+		D42226B42B121BB600EA6799 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D42226B52B121BB600EA6799 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D42226BC2B121F1400EA6799 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D42226AE2B121BB500EA6799 /* TheSimpsonsApp.swift */,
+				D42226B02B121BB500EA6799 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D42226BD2B121F1D00EA6799 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D42226C02B12202400EA6799 /* LaunchScreenView.swift */,
+				D4E88BEB2B13557800F5A59E /* StartButtonView.swift */,
+				D42226C22B12203200EA6799 /* OnboardingView.swift */,
+				D4E88BEF2B13622A00F5A59E /* HomePageView.swift */,
+				D42226C82B12444700EA6799 /* FallingObjectView.swift */,
+				D4E88BF32B13862900F5A59E /* CoverImageView.swift */,
+				D4E88BF62B13997D00F5A59E /* CharacterListItemView.swift */,
+				D4E88BFF2B13D79200F5A59E /* CharacterDetailView.swift */,
+				D4E88C012B13E0A300F5A59E /* ExternalWebLinkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D42226BE2B121F2800EA6799 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D48AC06C2B1287AA00C4FA6D /* CardCharacterData.swift */,
+				D4E88BF82B139A8900F5A59E /* simpsons.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		D42226BF2B121F3500EA6799 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D48AC06A2B12875E00C4FA6D /* CardCharacterModel.swift */,
+				D4E88BFD2B13C3F800F5A59E /* SimpsonsJsonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D48AC0672B127D0700C4FA6D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D42226C62B123C3A00EA6799 /* FallingObjectSetupView.swift */,
+				D48AC0682B1282A200C4FA6D /* CardView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D4E88BFA2B13C36400F5A59E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D4E88BFB2B13C37E00F5A59E /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42226AA2B121BB500EA6799 /* TheSimpsons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42226B92B121BB600EA6799 /* Build configuration list for PBXNativeTarget "TheSimpsons" */;
+			buildPhases = (
+				D42226A72B121BB500EA6799 /* Sources */,
+				D42226A82B121BB500EA6799 /* Frameworks */,
+				D42226A92B121BB500EA6799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSimpsons;
+			productName = "The Simpsons";
+			productReference = D42226AB2B121BB500EA6799 /* TheSimpsons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42226A32B121BB500EA6799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D42226AA2B121BB500EA6799 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D42226A62B121BB500EA6799 /* Build configuration list for PBXProject "The Simpsons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D42226A22B121BB500EA6799;
+			productRefGroup = D42226AC2B121BB500EA6799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42226AA2B121BB500EA6799 /* TheSimpsons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42226A92B121BB500EA6799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42226B62B121BB600EA6799 /* Preview Assets.xcassets in Resources */,
+				D4E88BF92B139A8900F5A59E /* simpsons.json in Resources */,
+				D42226B32B121BB600EA6799 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42226A72B121BB500EA6799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48AC0692B1282A200C4FA6D /* CardView.swift in Sources */,
+				D42226B12B121BB500EA6799 /* ContentView.swift in Sources */,
+				D4E88BEC2B13557800F5A59E /* StartButtonView.swift in Sources */,
+				D42226C32B12203200EA6799 /* OnboardingView.swift in Sources */,
+				D4E88BFE2B13C3F800F5A59E /* SimpsonsJsonModel.swift in Sources */,
+				D4E88BF42B13862900F5A59E /* CoverImageView.swift in Sources */,
+				D48AC06B2B12875E00C4FA6D /* CardCharacterModel.swift in Sources */,
+				D42226C72B123C3A00EA6799 /* FallingObjectSetupView.swift in Sources */,
+				D4E88BF72B13997D00F5A59E /* CharacterListItemView.swift in Sources */,
+				D48AC06D2B1287AA00C4FA6D /* CardCharacterData.swift in Sources */,
+				D42226AF2B121BB500EA6799 /* TheSimpsonsApp.swift in Sources */,
+				D4E88C022B13E0A300F5A59E /* ExternalWebLinkView.swift in Sources */,
+				D42226C12B12202400EA6799 /* LaunchScreenView.swift in Sources */,
+				D4E88BF02B13622A00F5A59E /* HomePageView.swift in Sources */,
+				D4E88BFC2B13C37E00F5A59E /* CodableBundleExtension.swift in Sources */,
+				D42226C92B12444700EA6799 /* FallingObjectView.swift in Sources */,
+				D4E88C002B13D79200F5A59E /* CharacterDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D42226B72B121BB600EA6799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D42226B82B121BB600EA6799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D42226BA2B121BB600EA6799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Simpsons/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YH473JSS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TheSimpsons-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TheSimpsons;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foaltycoder.co.TheSimpsons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D42226BB2B121BB600EA6799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Simpsons/Preview Content\"";
+				DEVELOPMENT_TEAM = 3YH473JSS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TheSimpsons-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TheSimpsons;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foaltycoder.co.TheSimpsons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42226A62B121BB500EA6799 /* Build configuration list for PBXProject "The Simpsons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42226B72B121BB600EA6799 /* Debug */,
+				D42226B82B121BB600EA6799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42226B92B121BB600EA6799 /* Build configuration list for PBXNativeTarget "TheSimpsons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42226BA2B121BB600EA6799 /* Debug */,
+				D42226BB2B121BB600EA6799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42226A32B121BB500EA6799 /* Project object */;
+}
